@@ -64,7 +64,7 @@ const Navbar = (props) => {
               </li>
             </ul>
 
-            <Link to="/cardItem" className="cart">
+            <Link to="/e-commerce/cardItem" className="cart">
               <i class="fa fa-shopping-cart"></i>
               <span className="number_items">{state.length}</span>
             </Link>
