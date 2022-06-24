@@ -43,22 +43,22 @@ const Navbar = (props) => {
           <div className={isActive?"collapse-show":"navbar-collapse"} id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/">
+                <NavLink className="nav-link" to="/e-commerce">
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/products">
+                <NavLink className="nav-link" to="/e-commerce/products">
                   Products
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
+                <NavLink className="nav-link" to="/e-commerce/about">
                   About
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/contact">
+                <NavLink className="nav-link" to="/e-commerce/contact">
                   Contact
                 </NavLink>
               </li>

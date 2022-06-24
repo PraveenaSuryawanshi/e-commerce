@@ -64,7 +64,7 @@ const Footer = () => {
             <div className="col-md-12">
               <div className="section-heading">
                 <div className="line-dec"></div>
-                <h1>Subscribe on PIXIE now!</h1>
+                <h1>Subscribe now!</h1>
               </div>
             </div>
             <div className="col-md-8 offset-md-2">
@@ -180,9 +180,9 @@ const Footer = () => {
             <div className="col-md-12">
               <div className="copyright-text">
                 <p>
-                  Copyright &copy; 2019 Company Name - Design:{" "}
-                  <a rel="nofollow" href="https://www.facebook.com/tooplate">
-                    Tooplate
+                  
+                  <a rel="nofollow" href="">
+                    Praveena Suryawanshi
                   </a>
                 </p>
               </div>

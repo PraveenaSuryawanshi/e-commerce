@@ -131,7 +131,7 @@ const SingleProduct = (props) => {
               <OwlCarousel className="owl-theme" loop margin={10}>
                 {json.items.map((data) => {
                   return (
-                    <Link to={`/products/singleitem/${data.id}`}>
+                    <Link to={`/e-commerce/products/singleitem/${data.id}`}>
                       <div className="featured-item">
                         <img src={data.image[0]} alt={data.brand} />
                         <h4>{data.brand}</h4>
