@@ -18,7 +18,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/e-commerce' extact element={<Home/>} />
-        <Route path="/home"  element={<Navigate replace to="/e-commerce" />}></Route>
+        <Route path="/home"  element={<Navigate replace to="/e-commerce/home" />}></Route>
         <Route path='/e-commerce/products' element={<Product/>} />
         <Route path='/e-commerce/about'  element={<About/>} />
         <Route path='/e-commerce/contact' element={<Contact />}/>
