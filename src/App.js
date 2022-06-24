@@ -17,14 +17,14 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path='/e-commerce' extact element={<Home/>} />
-        <Route path="/home"  element={<Navigate replace to="/e-commerce/home" />}></Route>
-        <Route path='/e-commerce/products' element={<Product/>} />
-        <Route path='/e-commerce/about'  element={<About/>} />
-        <Route path='/e-commerce/contact' element={<Contact />}/>
-        <Route path='/e-commerce/cardItem' element={<CardItem/>}/>
-        <Route path='/e-commerce/products/singleItem/:id' extact element={<SingleItem/>}></Route>
-        <Route path='/e-commerce/products/singleItem/' element={<Navigate to="/e-commerce/products/singleItem/1" />}></Route>
+        <Route path='/' extact element={<Home/>} />
+        <Route path="/home"  element={<Navigate replace to="/" />}></Route>
+        <Route path='/products' element={<Product/>} />
+        <Route path='/about'  element={<About/>} />
+        <Route path='/contact' element={<Contact />}/>
+        <Route path='/cardItem' element={<CardItem/>}/>
+        <Route path='/products/singleItem/:id' extact element={<SingleItem/>}></Route>
+        <Route path='/products/singleItem/' element={<Navigate to="/products/singleItem/1" />}></Route>
       </Routes>
     </Router>
   );

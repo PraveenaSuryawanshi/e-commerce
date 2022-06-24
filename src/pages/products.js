@@ -31,7 +31,7 @@ const Product = (props) => {
            json.items.map((data,i)=>{
                return (
                  <div key={data.id} className="item new col-md-4 isotope-item">
-                   <Link to={`/e-commerce/products/singleItem/${data.id}`}>
+                   <Link to={`/products/singleItem/${data.id}`}>
                      <div className="featured-item">
                        <img src={data.image[0]} alt="" />
                        <h4>{data.brand}</h4>
