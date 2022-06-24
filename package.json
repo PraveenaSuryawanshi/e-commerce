@@ -1,7 +1,7 @@
 {
   "name": "e-commerce",
   "version": "0.1.0",
-  "homepage": "https://PraveenaSuryawanshi.github.io/classycloth",
+  "homepage": "https://PraveenaSuryawanshi.github.io/e-commerce",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
