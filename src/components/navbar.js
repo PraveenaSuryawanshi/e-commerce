@@ -43,7 +43,7 @@ const Navbar = (props) => {
           <div className={isActive?"collapse-show":"navbar-collapse"} id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/">
+                <NavLink className="nav-link" to="/e-commerce">
                   Home
                 </NavLink>
               </li>
