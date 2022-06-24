@@ -25,7 +25,7 @@ const Home = () => {
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>
                 <div className="main-button">
-                 <Link to={`/products`}>
+                 <Link to={`/e-commerce/products`}>
                  Order Now!
                  </Link>
                 </div>
@@ -50,7 +50,7 @@ const Home = () => {
                     return (
                 <div className="featured-item">
                   
-                      <Link to={`/products/singleItem/${data.id}`}>
+                      <Link to={`/e-commerce/products/singleItem/${data.id}`}>
                         <img
                           src={data.image[0]}
                           alt={data.brand}
